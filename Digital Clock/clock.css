@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container{
+    background-color: aquamarine;
+    color: grey;
+    height: 100vh;
+    padding-top: 1px;
+    width: 50vw;
+    margin: auto;
+    min-width: 410px;
+}
+
+/* .main{
+    border: 2px white;
+    justify-content: center;
+} */
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 55px;  
+}
+
+.start, .stop{
+    width: 84px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: white;
+    color: black;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
